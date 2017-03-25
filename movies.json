@@ -1,0 +1,80 @@
+
+	[
+		{
+			"name":"kabali",
+			"actor":"rajini",
+			"director":"ranjith",
+			"image":"images/assets/kabali.jpg",
+			"language":"tamil",
+			"plot":"action"
+		},
+		{
+			"name":"theri",
+			"actor":"vijay",
+			"director":"atlee",
+			"image":"images/assets/theri.jpg",
+			"language":"tamil",
+			"plot":"action/drama"
+		},
+		{
+			"name":"vedalam",
+			"actor":"ajith",
+			"director":"siva",
+			"image":"images/assets/vedalam.jpg",
+			"language":"tamil",
+			"plot":"action/drama"
+		},
+		{
+			"name":"conjuring2",
+			"actor":"Patrick Wilson",
+			"director":"james wan",
+			"image":"images/assets/conjuring.jpg",
+			"language":"english",
+			"plot":"horror film"
+		},
+		{
+			"name":"suicide squad",
+			"actor":"will smith",
+			"director":"David Ayer",
+			"image":"images/assets/suicide.jpg",
+			"language":"english",
+			"plot":"gangster film"
+		},
+		{
+			"name":"lights out",
+			"actor":"Gabriel Bateman",
+			"director":"David Sandberg",
+			"image":"images/assets/lights.jpg",
+			"language":"english",
+			"plot":"horror film"
+		},
+		{
+			"name":"sultan",
+			"actor":"salman khan",
+			"director":"Ali Abbas Zafar",
+			"image":"images/assets/sultan.jpg",
+			"language":"hindi",
+			"plot":"action/drama"
+		},
+		{
+			"name":"fan",
+			"actor":"shahrukh khan",
+			"director":"Maneesh Sharma",
+			"image":"images/assets/fan.jpg",
+			"language":"hindi",
+			"plot":"thriller"
+		},
+		{
+			"name":"dishoom",
+			"actor":"john abraham",
+			"director":"rohit dhawan",
+			"image":"images/assets/dishoom.jpg",
+			"language":"hindi",
+			"plot":"action/comedy"
+		}
+
+
+
+
+
+	]

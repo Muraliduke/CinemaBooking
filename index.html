@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="boxoffice">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <title>Box Office</title>
+    <link rel="stylesheet" type="text/css" href="images/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="images/css/style.css">
+     <link rel="stylesheet" type="text/css" href="images/css/bootstrap.min.css">
+    <!-- library script files  -->
+     <!-- include your custom app files here -->
+    <script src="images/library/angular.min.js"></script>
+    <script src="images/library/angular-route.min.js"></script>
+    <script src="images/library/bootstrap.js"></script>
+    <script src="app/app.js"></script>
+    <script  src="app/services/firstservice.js"></script>
+    <script  src="app/controllers/homecontroller.js"></script>
+    
+
+</head>
+<body>
+<div class="container-fluid">
+<header>
+	<h1 class="box">BOX OFFICE</h1>
+</header>
+
+<div class='loadhtml' ng-view >
+</div>
+
+
+
+</div>	
+</body>
+</html>

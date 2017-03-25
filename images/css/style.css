@@ -1,0 +1,48 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.box{
+	font-family: arial;
+	font-size: 30px;
+	background-color: #5f5f5f;
+	text-align: center;
+	color: #fff;
+}
+.content{
+	width: 70%;
+	margin: 0 auto;
+}
+.movies{
+	display: inline-block;
+	width:30%;
+	margin-top: 40px;
+}
+.popup{
+	width:50%;
+	margin: 0 auto;
+	position: absolute;
+	z-index:101;
+	top: 300px;
+    left: 495px;
+}
+.name{
+	display: inline-block;
+	width:30%;
+	padding-top: 10px;
+}
+.tab{
+	width:60%;
+}
+textarea{
+	vertical-align: text-top;
+}
+
+.filtering{
+	float:right;
+	margin-right: 40px;
+}
+.desc{
+
+	width: 50%;
+    margin: 0 auto;
+}
+

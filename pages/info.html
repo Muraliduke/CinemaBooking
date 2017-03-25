@@ -1,0 +1,97 @@
+<div class="info_total">
+<img ng-src="{{val.image}}" ng-click="mov()">
+<p class="synopsis">Movie:{{val.name}}</p>
+<p class="synopsis">Starring:{{val.actor}}</p>
+<p class="synopsis">Director:{{val.director}}</p>
+<p class="synopsis">Plot:{{val.plot}}</p>
+
+<h2>Booking Progress Bar</h2>
+<div class="progress">
+	  <div class="progress-bar progress-bar-striped active" role="progressbar"
+   aria-valuemin="0" aria-valuemax="100" style="width:{{percent}}%">
+    {{percent}}%
+  </div>
+</div>
+
+
+<select class="dropdown" ng-model="lang" ng-change="GetValue(lang)" >
+		<option value="" selected="selected">Booking Option</option>
+		<option>Single</option>
+		<option>Bulk</option>
+</select>
+
+<div ng-show="gow">
+
+	
+
+			<input type="number" ng-model="valu"   min="{{a}}" max="{{b}}">
+			<br/>
+			
+
+</div>
+
+
+
+
+
+
+
+	
+<!-- Modal -->
+  
+		<!-- popup-->
+
+
+<div ng-controller="ModalDemoCtrl">
+    <script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">User details</h3>
+        </div>
+        <div class="modal-body">
+            	 <form name="myform" ng-submit="submit()">
+			<table class="tab">
+				<tr>
+					<td><label class="name">Name</label><input type="text" ng-model="name" ng-style="obj" name="username" ng-pattern="/^[a-zA-Z\s]*$/"
+                required ><span ng-show="myform.username.$error.pattern" class="invld">invalid name</span></td>
+				</tr>
+				<tr>
+					<td><label class="name">mobile</label><input type="text" ng-model="mobile" name="mob" ng-pattern="/[0-9]{10}/" ng-maxlength="10" required><span  ng-show="myform.mob.$error.pattern || myform.mob.$error.maxlength" class="invld">please enter a valid mobile number</span><span ng-show="myForm.mob.$error.required">This field is required!</span></td>
+				</tr>
+				<tr>
+					<td><label class="name">email</label><input type="email" ng-model="emaill" name="emid" required> 
+    				<span class="invld" ng-show="myform.emid.$error.pattern">
+    				Not valid email!</span>
+    				<span class="invld" ng-show="emailerror">Enter correct email</span></td>
+				</tr>
+				<tr>
+					<td><label class="name">Address</label><textarea name="add"  ng-model="address" required></textarea></td>
+				</tr>
+		
+			</table>
+
+
+			
+		
+	</form>
+	
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="ok()">SUBMIT</button>
+            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+        </div>
+    </script>
+
+    
+    	<button type="button" ng-show="gow" class="btn btn-success" ng-click="open('lg')">BOOK NOW</button>
+   
+</div>
+
+
+
+  </div>
+	
+
+
+
+
+

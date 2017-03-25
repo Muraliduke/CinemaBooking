@@ -1,0 +1,12 @@
+<select class="filtering" ng-model="lang" ng-change="GetValue()" >
+		<option value="" selected="selected">All</option>
+		<option>Tamil</option>
+		<option>English</option>
+		<option>Hindi</option>
+</select>
+
+<div class="content">
+	<p class="movies" ng-repeat="x in myWelcome |filter:lang">
+		<a href="#info"><img class="img-thumbnail" ng-src="{{x.image}}" ng-click="click()"></a>
+	</p>
+</div>
